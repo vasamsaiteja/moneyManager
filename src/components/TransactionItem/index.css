@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.delete-icon {
+  height: 20px;
+}
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+.delete-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.delete-img {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .delete-img {
+    margin-right: 24px;
+  }
+}

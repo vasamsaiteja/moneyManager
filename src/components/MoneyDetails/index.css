@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.moneyDetails-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.moneyDetails-list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  height: 90px;
+  width: 220px;
+  align-self: flex-start;
+  padding: 10px;
+  border-radius: 5px;
+}
+.background-income-color {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.background-balance-color {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.background-expenses-color {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.money-image-details {
+  height: 50px;
+  align-self: center;
+}
